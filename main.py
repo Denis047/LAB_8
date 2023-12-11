@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
+
 def plot_scatter(X, title):
     plt.figure(figsize=(8, 6))
     plt.scatter(X[:, 0], X[:, 1])
